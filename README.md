@@ -25,16 +25,16 @@ Jede Datei hat eine SHA-256-Prüfsumme in `SHA256SUMS.txt`. / Each file is liste
 2. `Install.cmd` ausführen. Das legt SYSANTO für den aktuellen Benutzer an, erstellt Desktop- und Startmenü-Verknüpfung. Keine Administratorrechte nötig. / Run `Install.cmd` (per-user, no admin rights).
 3. Exporte (PNG/SVG/PDF) nutzen den installierten Microsoft Edge oder Google Chrome. / Exports use the installed Edge or Chrome.
 
-Projektdaten liegen unter `%LOCALAPPDATA%\SystemChainStudio\data` und bleiben bei Updates erhalten. / Project data stays in `%LOCALAPPDATA%\SystemChainStudio\data` across updates.
+Projektdaten liegen unter `%LOCALAPPDATA%\SYSANTO\data` und bleiben bei Updates erhalten. / Project data stays in `%LOCALAPPDATA%\SYSANTO\data` across updates.
 
 ### Linux
 
 ```sh
 tar xzf SYSANTO-<version>-Linux-x64.tar.gz
-./SYSANTO-<version>/SystemChainStudio
+./SYSANTO-<version>/sysanto
 ```
 
-Projektdaten / Project data: `~/.local/share/SystemChainStudio/data`. Für Exporte wird Google Chrome oder Chromium benötigt. / Exports need Google Chrome or Chromium.
+Projektdaten / Project data: `~/.local/share/sysanto/data`. Für Exporte wird Google Chrome oder Chromium benötigt. / Exports need Google Chrome or Chromium.
 
 ## Basic und Pro
 
