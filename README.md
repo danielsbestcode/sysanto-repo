@@ -4,9 +4,9 @@
 
 **System Architecture · Networked Traceable Objects**
 
-SYSANTO ist ein schlankes MBSE-Werkzeug für Systemarchitekturen: Systemkatalog, Schnittstellen, Funktionsketten, Anforderungen und Diagramme in einem gemeinsamen Modell. Läuft lokal, ohne Cloud und ohne Telemetrie.
+SYSANTO ist ein schlankes MBSE-Werkzeug für Systemarchitekturen: Systemkatalog, Schnittstellen, Wirkketten, Anforderungen und Diagramme in einem gemeinsamen Modell. Läuft lokal, ohne Cloud und ohne Telemetrie.
 
-SYSANTO is a lean MBSE tool for system architectures: system catalog, interfaces, functional chains, requirements and diagrams in one shared model. Runs locally, no cloud, no telemetry.
+SYSANTO is a lean MBSE tool for system architectures: system catalog, interfaces, effect chains, requirements and diagrams in one shared model. Runs locally, no cloud, no telemetry.
 
 ## Download
 
