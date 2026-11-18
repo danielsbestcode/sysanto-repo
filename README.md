@@ -1,8 +1,8 @@
-<p align="center"><img src="Sysanto_Logo.png" alt="SYSANTO" width="360"></p>
+<p align="center"><img src="Sysanto_Logo.png" alt="SYSANTO" width="376"></p>
 
 # SYSANTO
 
-**System Architecture · Networked Traceable Objects**
+**System Architecture as a Network of Traceable Objects**
 
 SYSANTO ist ein schlankes MBSE-Werkzeug für Systemarchitekturen: Systemkatalog, Schnittstellen, Wirkketten, Anforderungen und Diagramme in einem gemeinsamen Modell. Läuft lokal, ohne Cloud und ohne Telemetrie.
 
