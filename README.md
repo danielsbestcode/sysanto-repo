@@ -14,18 +14,25 @@ Die Programmpakete liegen unter **[Releases](../../releases)**. / Packages are a
 
 | Plattform / Platform | Datei / File |
 |---|---|
-| Windows 10/11 x64 | `SYSANTO-<version>-Windows-x64.zip` |
+| Windows 10/11 x64 (Setup) | `SYSANTO-<version>-Windows-x64-Setup.exe` |
+| Windows 10/11 x64 (ZIP) | `SYSANTO-<version>-Windows-x64.zip` |
 | Linux x64 (glibc 2.35+) | `SYSANTO-<version>-Linux-x64.tar.gz` |
 
 Jede Datei hat eine SHA-256-Prüfsumme in `SHA256SUMS.txt`. / Each file is listed with its SHA-256 checksum in `SHA256SUMS.txt`.
 
 ### Windows
 
-1. ZIP entpacken. / Unzip.
-2. `Install.cmd` ausführen. Das legt SYSANTO für den aktuellen Benutzer an, erstellt Desktop- und Startmenü-Verknüpfung. Keine Administratorrechte nötig. / Run `Install.cmd` (per-user, no admin rights).
-3. Exporte (PNG/SVG/PDF) nutzen den installierten Microsoft Edge oder Google Chrome. / Exports use the installed Edge or Chrome.
+**Setup (empfohlen / recommended):** `SYSANTO-<version>-Windows-x64-Setup.exe` ausführen. Installiert für den aktuellen Benutzer ohne Administratorrechte, legt Desktop- und Startmenü-Verknüpfung an und trägt SYSANTO unter *Installierte Apps* ein; dort lässt es sich auch deinstallieren. / Run the Setup.exe: per-user, no admin rights, shortcuts, listed under *Installed apps* for uninstalling.
 
-Projektdaten liegen unter `%LOCALAPPDATA%\SYSANTO\data` und bleiben bei Updates erhalten. / Project data stays in `%LOCALAPPDATA%\SYSANTO\data` across updates.
+**ZIP:** entpacken und `Install.cmd` ausführen; `Uninstall.cmd` entfernt SYSANTO wieder. / Unzip and run `Install.cmd`; `Uninstall.cmd` removes SYSANTO.
+
+Beide Wege legen dieselbe Installation an; ein Update geht mit Setup oder ZIP der neuen Version. Exporte (PNG/SVG/PDF) nutzen den installierten Microsoft Edge oder Google Chrome. / Both create the same installation; update with the Setup or ZIP of the new version. Exports use the installed Edge or Chrome.
+
+Projektdaten liegen unter `%LOCALAPPDATA%\SYSANTO\data` und bleiben bei Updates und beim Deinstallieren erhalten, außer das Löschen wird ausdrücklich gewählt. / Project data stays in `%LOCALAPPDATA%\SYSANTO\data` across updates and uninstalling unless you choose to delete it.
+
+Softwareverteilung / Silent install: `SYSANTO-<version>-Windows-x64-Setup.exe /VERYSILENT /SUPPRESSMSGBOXES /NORESTART` (optional `/NOSHORTCUT=1`).
+
+Das Programm ist noch nicht signiert; Windows SmartScreen fragt deshalb einmal nach („Weitere Informationen“ → „Trotzdem ausführen“). / The program is not signed yet; SmartScreen asks once ("More info" → "Run anyway").
 
 ### Linux
 
